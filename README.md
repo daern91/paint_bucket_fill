@@ -8,4 +8,4 @@ Confirmed working in:
 * Ruby 2.4.1
 * RSpec 3.6
 
-* Type 'rspec paint_spec.rb' to verify in your terminal.
+* Type 'rspec paint_spec.rb' to run tests in your terminal.

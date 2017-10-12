@@ -15,7 +15,8 @@ class Paint
       if img[y][x] == start_color
         # Then set it to new color
         img[y][x] = color
-        # And add next X and Y to queue
+        # And add next X and Y to queue if
+        # it is within the boundaries
           queue.push([x+1,y+1])   if x+1 < w && y+1 < h
           queue.push([x+1,y])     if x+1 < w
           queue.push([x+1,y-1])   if x+1 < w && y-1 >= 0
